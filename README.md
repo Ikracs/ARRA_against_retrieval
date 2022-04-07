@@ -36,6 +36,6 @@ pip install huaweicloudsdkimagesearch
 Then run the following commands:
 ```sh
 python real.py --dataset deep_fashion --query_root ${YOUR_QUERY_ROOT}
-  --attack sa --budget 200 --epsilon 0.05
+  --attack sa --budget 2000 --epsilon 0.05
   --N 10 --k 1.0 --gamma 3 --rb 0.5
 ```
