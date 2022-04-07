@@ -27,7 +27,7 @@ python main.py --model BN-Inception --model_pth ${YOUR_MODEL_PTH} --dataset cub
   --N 100 --k 0.1 --rc 0.5 --n_ex 1000 --batch_size 32 --gpu 0
   --alpha 2e-3 --momentum 0.5 --rb 0.5 --gamma 1.0
 ```
-If you want to lanuch an attack against image search service provided by [HCIS](https://www.huaweicloud.com/product/imagesearch.html),
+If you want to launch an attack against image search service provided by [HCIS](https://www.huaweicloud.com/product/imagesearch.html),
 you need to install the dependencies first:
 ```sh
 pip install huaweicloundsdkcore
