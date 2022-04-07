@@ -1,6 +1,10 @@
 # ARRA: Absolute-Relative Ranking Attack against Image Retrieval
 
-### Requirement
+### Abstract
+
+### About the paper
+
+### Requirements
 Our code is based on the following dependencies
 - pytorch == 1.6.0
 - torchvision == 0.7.0
