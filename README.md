@@ -16,13 +16,13 @@ The target model is trained with [Deep_Metric](https://github.com/bnu-wangxun/De
 ### Running the code
 To reproduce the results in our paper, run:
 ```sh
-python main.py --model BN-INception --model_pth ${YOUR_MODEL_PTH} --dataset cub
+python main.py --model BN-Inception --model_pth ${YOUR_MODEL_PTH} --dataset cub
   --attack nes --budget 2000 --epsilon 0.05 --loss arl
   --N 8 --k 1.0 --rc 0.5 --rt 1.0 --n_ex 1000 --batch_size 32 --gpu 0
   --alpha 2e-3 --momentum 0.5 --rb 0.5
 ```
 ```sh
- python arra.py --model BN-INception --model_pth ${YOUR_MODEL_PTH} --dataset sop
+ python arra.py --model BN-Inception --model_pth ${YOUR_MODEL_PTH} --dataset sop
   --attack nes --budget 2000 --epsilon 0.05
   --N 100 --k 0.1 --rc 0.5 --n_ex 1000 --batch_size 32 --gpu 0
   --alpha 2e-3 --momentum 0.5 --rb 0.5 --gamma 1.0
