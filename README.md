@@ -10,7 +10,21 @@ Extensive experiments conducted on widely-used SOP and CUB-200 datasets demonstr
 Moreover, the attack result on a real-world image retrieval system, *i.e.*, Huawei Cloud Image Search, also proves the practicability of our ARRA approach.
 
 ### About the paper
+Illustration of the proposed ARL and RRL:
 
+<img src="figures/illustration.PNG#pic_center" width=800>
+
+Results of our ARRA under complex attack scenario:
+
+<img src="figures/nrc.PNG#pic_center" width=450>
+
+<img src="figures/asr.PNG#pic_center" width=450>
+
+Visualization of adversarial examples and their retrieval results:
+
+<img src="figures/results.PNG#pic_center" width=800>
+
+## Running the code
 ### Requirements
 Our code is based on the following dependencies
 - pytorch == 1.6.0
@@ -19,8 +33,6 @@ Our code is based on the following dependencies
 - matplotlib == 2.0.0
 
 The target models are trained with [Deep_Metric](https://github.com/bnu-wangxun/Deep_Metric/).
-
-### Running the code
 To reproduce the results in our paper, run:
 ```sh
 python main.py --model BN-Inception --model_pth ${YOUR_MODEL_PTH} --dataset cub
