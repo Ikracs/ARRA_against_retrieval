@@ -1,6 +1,13 @@
 # ARRA: Absolute-Relative Ranking Attack against Image Retrieval
 
 ### Abstract
+With the extensive application of deep learning, adversarial attacks especially query-based attacks receive more concern than ever before.
+However, the scenarios assumed by existing query-based attacks against image retrieval are usually too simple to satisfy the attack demand.
+In this paper, we propose a novel method termed *Absolute-Relative Ranking Attack* (ARRA) that considers a more practical attack scenario.
+Specifically, we propose two compatible goals for the query-based attack, *i.e.*, *absolute ranking attack* and *relative ranking attack*, which aim to change the relative order of chosen candidates and assign the specific ranks to chosen candidates in retrieval list respectively.
+We further devise the *Absolute Ranking Loss* (ARL) and *Relative Ranking Loss* (RRL) for the above goals and implement our ARRA by minimizing their combination with black-box optimizers and evaluate the attack performance by *attack success rate* and *normalized ranking correlation*.
+Extensive experiments conducted on widely-used SOP and CUB-200 datasets demonstrate the superiority of the proposed approach over the baselines.
+Moreover, the attack result on a real-world image retrieval system, *i.e.*, Huawei Cloud Image Search, also proves the practicability of our ARRA approach.
 
 ### About the paper
 
