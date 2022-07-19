@@ -1,6 +1,6 @@
 # ARRA: Absolute-Relative Ranking Attack against Image Retrieval
 
-This is the code for our paper "ARRA: Absolute-Relative Ranking Attack against Image Retrieval", which has been accepted by MM, 2022.
+This is the code for our paper "*ARRA: Absolute-Relative Ranking Attack against Image Retrieval*", which has been accepted by **MM, 2022**.
 
 ### Abstract
 With the extensive application of deep learning, adversarial attacks especially query-based attacks receive more concern than ever before.
